@@ -1,0 +1,94 @@
+body{
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 70%;
+    margin: 20px auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: darkblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.note-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.note-container a{
+    text-decoration: none;
+    color: #000;
+}
+
+.note-preview{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: solid 2px transparent;
+    background-color: #fff;
+}
+
+.note-preview:hover{
+    border: solid 2px #2893ff;
+}
+
+nav{
+    background-color: black;
+    color: white;
+
+}
+
+nav li{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    margin: 0;
+}

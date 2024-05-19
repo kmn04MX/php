@@ -1,0 +1,15 @@
+{
+    "name": "vidamrr/notas",
+    "autoload": {
+        "psr-4": {
+            "Vidamrr\\Notas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe Arroyo",
+            "email": "afelipef7@gmail.com"
+        }
+    ],
+    "require": {}
+}
